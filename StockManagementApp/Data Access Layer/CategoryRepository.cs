@@ -14,7 +14,7 @@ namespace StockManagementApp.Data_Access_Layer
         {
             try
             {
-                var query = "INSERT INTO Categories(Name, CreateBy, CreateDate) VALUES('" + category.Name + "','" + category.CreateBy + "', '" + category.CreateDate + "')";
+                var query = "INSERT INTO Categories(Name, CreateBy, CreateDate) VALUES('" + category.Name + "','" + category.LoginBy + "', Getdate())";
                 var rowAffected = _genericRepository.ExecuteNonQuery(query, _connectionString);
                 return rowAffected > 0;
             }
@@ -37,7 +37,7 @@ namespace StockManagementApp.Data_Access_Layer
                     {
                         Id = Convert.ToInt32(reader["Id"]),
                         Name = reader["Name"].ToString(),
-                        CreateBy = reader["CreateBy"].ToString()
+                        LoginBy = reader["CreateBy"].ToString()
                     };
                     return category;
                 }
@@ -63,12 +63,12 @@ namespace StockManagementApp.Data_Access_Layer
                 throw new Exception(e.Message);
             }
         }
-        public bool Update(Category category)
+        public bool Update(Category category,int Id)
         {
             try
             {
-                var query = "UPDATE Categories SET Name='" + category.Name + "', UpdateBy='" + category.UpdateBy + "', UpdateDate='" + category.UpdateDate + "'" +
-                            " WHERE Id='" + category.Id + "'";
+                var query = "UPDATE Categories SET Name='" + category.Name + "', UpdateBy='" + category.LoginBy + "', UpdateDate=GetDate()" +
+                            " WHERE Id='" + Id+ "'";
                 var rowAffected = _genericRepository.ExecuteNonQuery(query, _connectionString);
                 return rowAffected > 0;
             }

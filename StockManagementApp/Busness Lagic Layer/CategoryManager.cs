@@ -50,9 +50,14 @@ namespace StockManagementApp.Busness_Lagic_Layer
             }
         }
 
-        public bool Update(Category category)
+        public DataTable GridViewData()
         {
-            var update = _categoryRepository.Update(category);
+            var dataTable = _categoryRepository.GetAll();
+            return dataTable;
+        }
+        public bool Update(Category category, int id)
+        {
+            var update = _categoryRepository.Update(category,id);
             return update;
         }
     }
