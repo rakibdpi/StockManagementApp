@@ -1,0 +1,10 @@
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\bin\Debug\StockApp.exe.config
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\bin\Debug\StockApp.exe
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\bin\Debug\StockApp.pdb
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\obj\Debug\StockApp.CategorySetup.resources
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\obj\Debug\StockApp.CompanySetup.resources
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\obj\Debug\StockApp.Properties.Resources.resources
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\obj\Debug\StockApp.csproj.GenerateResource.cache
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\obj\Debug\StockApp.csproj.CoreCompileInputs.cache
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\obj\Debug\StockApp.exe
+C:\Users\5CG7083DN0\Desktop\GAUS\Assignment\Project\StockApp\StockApp\StockApp\obj\Debug\StockApp.pdb
